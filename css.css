@@ -121,7 +121,22 @@ margin-left: -1px;
 }
 
 
-.foot{text-align: center;/* background-image: url("/stiliai/foot.png"); */background-repeat: no-repeat;background-position: center center;width: 100%;height: 35%;color: #080808;font-size: 17px;padding-top: 8px;}
+.foot{
+    text-align: center;
+    /* background-image: url(/stiliai/foot.png); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 35%;
+    color: #080808;
+    font-size: 17px;
+    padding-top: 8px;
+    border: 2px solid #3bffbf;
+    border-top: 0;
+    width: 800px;
+    margin: auto;
+    border-radius: 0 0 6px 6px;
+}
 .page{
 
 background: #255F5A;
@@ -132,13 +147,26 @@ border-radius: 3px;
 color: #fff;
 
 }
-.head{text-align: center;background: #fcfff8;width: 100%;padding: 15px;border-bottom: 3px solid #3bffbf;color: #433d34;font-size: 17px;}
+.head{
+    text-align: center;
+    background: #fcfff8;
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #3bffbf;
+    border-bottom-width: 3px;
+    color: #433d34;
+    border-top: 0;
+    font-size: 17px;
+    width: 800px;
+    margin: auto;
+    border-radius: 0 0 4px 4px;
+}
 
 
 .zalias{
-    /* background-image: url('/stiliai/up.png'); */
+    background-image: url(/stiliai/up.png); */
     background-repeat: no-repeat;
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     height: max-content;
     background: #fcfff8;
